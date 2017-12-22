@@ -1,6 +1,6 @@
 /* ELEMENTS */
 
-body{
+body {
 	font-size: 22px;
 	font-family: Helvetica;
 	color: seashell;
@@ -9,47 +9,44 @@ body{
 	text-align: center;
 }
 
-header{
+header {
 	border-bottom: 1px solid seashell;
 	height: 69px;
 	position: fixed;
 	background-color: black;
 	width: 100%;
-	z-index: 1;
 	align-items: center;
   top: 0;
 }
 
-header img{
+header img {
 	height: 50px;
 	padding-left: 10px;
 }
 
-nav{
+nav {
   display: flex;
 	text-align: right;
-	/* flex-grow: 1; */
 }
 
-nav li{
+nav li {
 	display: inline-block;
 	padding: 20px 15px;
-  /* text-align: center; */
 }
 
-nav a{
+nav a {
 	color: seashell;
 	text-decoration: underline;
 }
 
-h2, h4{
-	padding: 10px;
-	margin: 0px;
-}
-
-h2{
+h2 {
 	font-weight: bold;
 	display: block;
+}
+
+h2, h4 {
+	padding: 10px;
+	margin: 0px;
 }
 
 h5 {
@@ -62,13 +59,13 @@ footer {
 }
 
 /*  CLASSES */
-.flex-box{
+.flex-box {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.flex-box-header{
+.flex-box-header {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -79,29 +76,21 @@ footer {
   margin: auto;
 }
 
-.menu-item{
+.menu-item {
 	padding: 5px;
 }
-.menu-item img{
-	height: 200px;
 
-	display: block;
+.menu-item img {
+	height: 200px;
 	margin: 10px;
 }
-/* .menu-item span{
-	display: block;
-	padding: 5px;
-	font-weight: bold;
-	text-align: center;
-} */
 
 .location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 	width: 300px;
 	opacity: 1.0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	flex-basis: 280px;
 	padding: 10px;
 	margin: 5px 20px;
 	background-color: black;
@@ -109,7 +98,7 @@ footer {
 
 /* IDs */
 
-#mission{
+#mission {
 	height: 700px;
 	background-image: url("images/img-mission-background.jpg");
   justify-content: center;
@@ -121,19 +110,19 @@ footer {
   margin: auto;
 }
 
-#featured-items{
+#featured-items {
 width: 1000px;
 height: 700px;
 margin: auto;
 padding: 70px;
 }
 
-#locations{
+#locations {
 	height: 500px;
 	background-image: url("images/img-locations-background.jpg");
 	padding-top: 70px;
 }
 
-#contact{
+#contact {
 	height: 200px;
 }
