@@ -69,6 +69,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	z-index: 5;
 }
 
 .page-content {
@@ -102,6 +103,8 @@ footer {
 	height: 700px;
 	background-image: url("images/img-mission-background.jpg");
   justify-content: center;
+	position: relative;
+	top: 70px;
 }
 
 #mission-text {
@@ -111,10 +114,10 @@ footer {
 }
 
 #featured-items {
-width: 1000px;
-height: 700px;
-margin: auto;
-padding: 70px;
+	width: 1000px;
+	height: 700px;
+	margin: auto;
+	padding: 70px;
 }
 
 #locations {
